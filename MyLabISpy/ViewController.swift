@@ -51,19 +51,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
 
 
 
-/*
- 在updateZoomFor(size:)方法內部，使用imageView和size參數計算縮放。然後設置滾動視圖的minimumZoomScale屬性為該縮放比例，如下：
 
- 上述代碼首先計算顯示圖片的整個寬度和高度所需的縮放。接著它設置最小縮放為兩者之間較小的一個（寬度或高度），這樣你就不會能夠超出該範圍縮小。
- 最後，它設置初始縮放比例，使圖像適應屏幕。
- 
- let widthScale = size.width / imageView.bounds.width
- let heightScale = size.height / imageView.bounds.height
- let scale = min(widthScale, heightScale)
- scrollView.minimumZoomScale = scale
- scrollView.zoomScale = scale
-
- */
 
 
 
